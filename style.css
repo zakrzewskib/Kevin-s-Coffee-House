@@ -6,29 +6,52 @@
 
 body {
   font-family: sans-serif;
-  position: relative;
 }
 
 header {
+  display: flex;
+
   text-transform: uppercase;
-  position: absolute;
-  top: 20px;
-  left: 20px;
+
+  align-items: center;
+  justify-content: center;
+
+  /* width: 80%; */
 }
 
 h1 {
   font-weight: normal;
 }
 
-.logo-top, 
+ul {
+  list-style: none;
+}
+
+.logo {
+  justify-self: start;
+  flex: 1;
+}
+
+.logo-top,
 .logo-bottom {
   text-align: center;
 }
 
 .logo-top h1 {
-  font-size: 40px;
+  font-size: 44px;
 }
 
 .logo-bottom h1 {
-  font-size: 20px;
+  font-size: 18px;
+  letter-spacing: 2.1px;
+}
+
+nav {
+  flex: 1;
+}
+
+nav ul {
+  display: flex;
+  /* justify-content: center; */
+  gap: 20px;
 }
