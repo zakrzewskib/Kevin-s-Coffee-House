@@ -76,7 +76,7 @@ ul {
 
 .intro {
   text-align: center;
-  line-height: 1.5;
+  line-height: 1.2;
 }
 
 .intro h2 {
@@ -87,4 +87,12 @@ ul {
 .intro h2:last-child {
   font-weight: bold;
   font-size: 40px;
+  letter-spacing: 3px;
+}
+
+.intro-img {
+  width: 50%;
+
+  display: block;
+  margin: 0 auto;
 }
