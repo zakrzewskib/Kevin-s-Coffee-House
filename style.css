@@ -9,14 +9,15 @@ body {
 }
 
 header {
-  display: flex;
+  width: 95%;
+  margin: 0 auto;
+  margin-top: 40px;
+
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
 
   text-transform: uppercase;
-
-  align-items: center;
-  justify-content: center;
-
-  /* width: 80%; */
 }
 
 h1 {
@@ -28,8 +29,6 @@ ul {
 }
 
 .logo {
-  justify-self: start;
-  flex: 1;
 }
 
 .logo-top,
@@ -47,11 +46,12 @@ ul {
 }
 
 nav {
-  flex: 1;
+  justify-self: center;
 }
 
 nav ul {
+  font-weight: bold;
+  font-size: 14px;
   display: flex;
-  /* justify-content: center; */
   gap: 20px;
 }
