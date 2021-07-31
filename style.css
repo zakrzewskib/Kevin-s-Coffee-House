@@ -28,9 +28,6 @@ ul {
   list-style: none;
 }
 
-.logo {
-}
-
 .logo-top,
 .logo-bottom {
   text-align: center;
@@ -42,7 +39,7 @@ ul {
 
 .logo-bottom h1 {
   font-size: 18px;
-  letter-spacing: 2.1px;
+  letter-spacing: 2.2px;
 }
 
 nav {
@@ -50,8 +47,26 @@ nav {
 }
 
 nav ul {
-  font-weight: bold;
-  font-size: 14px;
   display: flex;
   gap: 20px;
+
+  font-weight: bold;
+  font-size: 14px;
+}
+
+nav li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.logo:hover {
+  cursor: pointer;
+}
+
+.logo a:link,
+.logo a:visited,
+.logo a:hover,
+.logo a:active {
+  color: #000;
+  text-decoration: none;
 }
