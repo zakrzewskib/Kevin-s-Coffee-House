@@ -12,9 +12,10 @@ body {
   width: 95%;
   margin: 0 auto;
   margin-top: 40px;
+  margin-bottom: 80px;
 
   display: grid;
-  grid-template-columns: auto 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
 
   text-transform: uppercase;
@@ -27,6 +28,10 @@ h2 {
 
 ul {
   list-style: none;
+}
+
+.logo {
+  justify-self: start;
 }
 
 .logo-top,
@@ -43,19 +48,16 @@ ul {
   letter-spacing: 2.2px;
 }
 
-nav {
-  justify-self: center;
-}
-
-nav ul {
+.main-nav ul {
   display: flex;
+  justify-content: center;
   gap: 20px;
 
   font-weight: bold;
   font-size: 14px;
 }
 
-nav li:hover {
+.main-nav li:hover {
   text-decoration: underline;
   cursor: pointer;
 }
