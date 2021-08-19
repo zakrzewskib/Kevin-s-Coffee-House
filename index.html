@@ -3,37 +3,50 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <meta name="description" content="Kevin's Coffe House" />
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <title>Kevin's Coffee House</title>
-    <link rel="stylesheet" href="style.css" />
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
   </head>
   <body>
-    <header class="main-header">
+    <header class="header">
       <div class="logo">
         <a href="#">
-          <div class="logo-top"><h1>Kevin's</h1></div>
-          <div class="logo-bottom"><h1>Coffee House</h1></div>
+          <div class="logo-top"><p>Kevin's</p></div>
+          <div class="logo-bottom"><p>Coffee House</p></div>
         </a>
       </div>
       <div class="main-nav">
-        <ul>
-          <li>HOME</li>
-          <li>ABOUT US</li>
-          <li>HOURS</li>
-          <li>ABOUT US</li>
+        <ul class="main-nav-list">
+          <li><a class="main-nav-link" href="">HOME</a></li>
+          <li><a class="main-nav-link" href="">ABOUT US</a></li>
+          <li><a class="main-nav-link" href="">HOURS</a></li>
+          <li><a class="main-nav-link" href="">GET IN TOUCH</a></li>
         </ul>
       </div>
     </header>
 
     <main>
-      <article>
-        <header class="intro">
-          <h2>Sourcing, roasting, and serving</h2>
-          <h2>coffees that we love</h2>
-        </header>
+      <section class="section-hero">
+        <div class="hero-text-box">
+          <h1>
+            Sourcing, roasting, and serving <br />
+            coffees that we love
+          </h1>
+        </div>
 
-        <img class="intro-img" src="img/mockup-graphics-gkzFuyAeXeY-unsplash.jpg" alt="Coffee" />
-      </article>
+        <div class="hero-img-box">
+          <img class="intro-img" src="img/hero-coffe-img.jpg" alt="Photography of coffe" />
+        </div>
+      </section>
     </main>
   </body>
 </html>
