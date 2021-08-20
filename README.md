@@ -1,5 +1,5 @@
 ### About
-* This project was made to practise HTML5 and CSS3 skills (only - no Javascript in this project).
+* This project was started to practice HTML5 and CSS3 skills (only - no Javascript in this project).
 * Kevin's Coffee House is a website based on
 <a href="https://www.youtube.com/channel/UCJZv4d5rbIKd4QHMPkcABCw">Kevin Powell's</a>
 design shown on his 
@@ -15,4 +15,6 @@ design shown on his
 * Add media queries - make website responsive (proper for tablets and phones).
 * Add buttons to change color scheme.
 
-### Preview
+### Preview (Work in progress)
+(Screenshots made by FireShot)
+<img src="https://github.com/zakrzewskib/Kevin-s-Coffee-House/blob/main/screenshots/preview-2021-08-20.png">
