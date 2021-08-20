@@ -15,6 +15,10 @@ design shown on his
 * Add media queries - make website responsive (proper for tablets and phones).
 * Add buttons to change color scheme.
 
+
 ### Preview (Work in progress)
-(Screenshots made by FireShot)
+
+* <a href="https://codepen.io/zakrzewskib/pen/qBmYwyx">Codepen</a>.
+
+* (Screenshots made with FireShot)
 <img src="https://github.com/zakrzewskib/Kevin-s-Coffee-House/blob/main/screenshots/preview-2021-08-20.png">
