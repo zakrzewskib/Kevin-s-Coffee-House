@@ -31,3 +31,8 @@ body {
   margin-right: auto;
   padding: 0 3.2rem;
 }
+
+.heading-secondary {
+  font-size: 4.4rem;
+  margin-bottom: 3.2rem;
+}
