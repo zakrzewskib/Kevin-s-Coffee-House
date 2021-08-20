@@ -18,7 +18,7 @@ design shown on his
 
 ### Preview (Work in progress)
 
-* <a href="https://codepen.io/zakrzewskib/pen/qBmYwyx">Codepen</a>.
+* <a href="https://codepen.io/zakrzewskib/pen/qBmYwyx">Codepen</a>
 
-* (Screenshots made with FireShot)
+* (Screenshot made with FireShot):
 <img src="https://github.com/zakrzewskib/Kevin-s-Coffee-House/blob/main/screenshots/preview-2021-08-20.png">
