@@ -1,3 +1,5 @@
+#  <img src="https://github.com/zakrzewskib/Kevin-s-Coffee-House/blob/main/img/coffee.jpg" width="32px"> Kevin-s-Coffee-House
+
 ### About
 * This project was started to practice HTML5 and CSS3 skills (only - no Javascript in this project).
 * Kevin's Coffee House is a website based on
