@@ -13,14 +13,15 @@ design shown on his
 
 * I used photos from https://unsplash.com/, https://www.pexels.com/ and https://www.vecteezy.com/.
 
-### TO DO
-* Add media queries - make website responsive (proper for tablets and phones).
+### In progress
 * Add buttons to change color scheme.
 
+### To do
+* Add media queries - make website responsive (proper for tablets and phones).
 
 ### Preview (Work in progress)
 
 * <a href="https://codepen.io/zakrzewskib/pen/qBmYwyx">Codepen</a>
 
 * (Screenshot made with FireShot):
-<img src="https://github.com/zakrzewskib/Kevin-s-Coffee-House/blob/main/screenshots/preview-2021-08-20.png">
+<img src="https://github.com/zakrzewskib/Kevin-s-Coffee-House/blob/main/screenshots/preview-2021-08-21.png">
