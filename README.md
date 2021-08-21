@@ -1,4 +1,4 @@
-#  <img src="https://github.com/zakrzewskib/Kevin-s-Coffee-House/blob/main/img/coffee.jpg" width="32px"> Kevin-s-Coffee-House
+#  <a href="https://codepen.io/zakrzewskib/pen/qBmYwyx" target="_blank"> <img src="https://github.com/zakrzewskib/Kevin-s-Coffee-House/blob/main/img/coffee.jpg" width="32px">  </a> Kevin-s-Coffee-House
 
 ### About
 * This project was started to practice HTML5 and CSS3 skills (only - no Javascript in this project).
