@@ -381,6 +381,9 @@
   top: 20rem;
   right: 5rem;
 
+  width: 35rem;
+  text-align: center;
+
   font-size: 1.8rem;
   font-weight: 600;
   font-family: inherit;
@@ -391,6 +394,14 @@
   padding: 1.2rem 2.4rem;
 }
 
+.change-style--1 {
+  top: 14rem;
+}
+
 .color-1 {
   color: #9f6243;
+}
+
+.color-2 {
+  color: #01627f;
 }

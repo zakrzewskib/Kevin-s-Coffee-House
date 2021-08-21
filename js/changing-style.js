@@ -1,7 +1,11 @@
 function addListeners() {
-  const buttonEl = document.querySelectorAll('.change-style');
-  buttonEl[0].addEventListener('click', () => {
+  const buttonEls = document.querySelectorAll('.change-style');
+  buttonEls[0].addEventListener('click', () => {
     changeTo(brown);
+  });
+
+  buttonEls[1].addEventListener('click', () => {
+    changeTo(turquoise);
   });
 }
 
@@ -15,6 +19,7 @@ const submitBtnEl = document.querySelector('.btn-submit');
 const footerEl = document.querySelector('.footer');
 
 const brown = '#9f6243';
+const turquoise = '#01627f';
 
 function changeTo(color) {
   headingEl.style.color = color;
