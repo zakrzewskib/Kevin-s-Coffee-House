@@ -8,7 +8,7 @@ design shown on his
 <a href="https://www.youtube.com/watch?v=mq8LYj6kRyE">Give your site a fantastic color scheme fast</a> Youtube video:
 
 <p align="center">
-  <img src="https://github.com/zakrzewskib/Kevin-s-Coffee-House/blob/main/screenshots/yt-screen.PNG" width="700px">
+  <img src="https://github.com/zakrzewskib/Kevin-s-Coffee-House/blob/main/screenshots/yt-screenshoot.PNG" width="700px">
 </p>
 
 * I added buttons that allow you to change the colors (same colors as in the video).
