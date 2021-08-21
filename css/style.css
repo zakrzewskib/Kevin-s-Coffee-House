@@ -394,6 +394,10 @@
   padding: 1.2rem 2.4rem;
 }
 
+.change-style--0 {
+  top: 8rem;
+}
+
 .change-style--1 {
   top: 14rem;
 }
@@ -404,4 +408,18 @@
 
 .color-2 {
   color: #01627f;
+}
+
+/* LINK TO GITHUB */
+.github-link {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.github-icon {
+  height: 4.8rem;
+  width: 4.8rem;
+
+  color: #000;
 }
