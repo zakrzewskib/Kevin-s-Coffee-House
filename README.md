@@ -23,4 +23,4 @@ design shown on his
 * <a href="https://codepen.io/zakrzewskib/pen/qBmYwyx">Codepen</a>
 
 * (Screenshot made with FireShot):
-<img src="https://github.com/zakrzewskib/Kevin-s-Coffee-House/blob/main/screenshots/preview-2021-08-20.png">
+<img src="https://github.com/zakrzewskib/Kevin-s-Coffee-House/blob/main/screenshots/preview-2021-08-21.png">
