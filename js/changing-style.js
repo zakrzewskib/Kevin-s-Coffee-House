@@ -4,23 +4,27 @@ function addListeners() {
   const buttonEls = document.querySelectorAll('.change-style');
 
   buttonEls[0].addEventListener('click', () => {
-    changeTo(black);
+    backToBlackAndWhite(black, white, grey);
   });
 
   buttonEls[1].addEventListener('click', () => {
+    backToBlackAndWhite(black, white, grey);
     changeTo(brown);
   });
 
   buttonEls[2].addEventListener('click', () => {
+    backToBlackAndWhite(black, white, grey);
     changeTo(turquoise);
   });
 
   buttonEls[3].addEventListener('click', () => {
+    backToBlackAndWhite(black, white, grey);
     changeTo(turquoise);
     addShades(blueShade1, blueShade2, blueShade3);
   });
 
   buttonEls[4].addEventListener('click', () => {
+    backToBlackAndWhite(black, white, grey);
     changeTo(turquoise);
     addShades(blueShade1, blueShade2, blueShade3);
     addComplimentaryColor(orange);
@@ -28,6 +32,9 @@ function addListeners() {
 }
 
 const black = '#000';
+const white = '#fff';
+const grey = '#888';
+
 const brown = '#9f6243';
 const turquoise = '#01627f';
 
@@ -98,10 +105,44 @@ function addComplimentaryColor(color) {
   submitBtnEl.style.backgroundColor = color;
 }
 
+function backToBlackAndWhite(black, white, grey) {
+  headingEl.style.color = black;
+  logoEl.style.color = black;
+  aboutBoxEl.style.borderColor = black;
+  ctaEl.style.backgroundColor = black;
+  openingHoursEl.style.backgroundColor = black;
+  submitBtnEl.style.backgroundColor = black;
+  footerEl.style.backgroundColor = black;
+  footerDescEl.style.backgroundColor = black;
+
+  contactLabelsEl.forEach((contactLabel) => {
+    contactLabel.style.color = black;
+  });
+
+  contactEmailEl.style.color = black;
+  ctaButtonEl.style.backgroundColor = grey;
+
+  headersAboutEl.forEach((headerAbout) => {
+    headerAbout.style.color = black;
+  });
+
+  comeForVisitHeadingEl.style.color = white;
+  getInTouchEl.style.color = black;
+
+  daysEl.forEach((dayEl) => {
+    dayEl.style.color = white;
+  });
+
+  headerCtaEl.style.color = white;
+
+  footerIconsEl.forEach((footerIcon) => {
+    footerIcon.style.color = white;
+  });
+}
+
 addListeners();
 
 const headingEl = document.querySelector('.heading-primary');
-// const navEl = document.querySelector('.main-nav-list');
 const logoEl = document.querySelector('.logo');
 const aboutBoxEl = document.querySelector('.about-text-box');
 const ctaEl = document.querySelector('.cta');
@@ -115,7 +156,6 @@ const ctaButtonEl = document.querySelector('.cta-btn');
 const headersAboutEl = document.querySelectorAll('.header-about');
 const comeForVisitHeadingEl = document.querySelector('.come-for-a-visit-heading');
 const getInTouchEl = document.querySelector('.get-in-touch-heading');
-
 const daysEl = document.querySelectorAll('.day');
 const headerCtaEl = document.querySelector('.header-cta');
 const footerIconsEl = document.querySelectorAll('.footer-icon');
