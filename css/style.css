@@ -350,10 +350,17 @@
 .footer {
   display: grid;
 
-  padding: 4.8rem 0 1.2rem 0;
+  padding: 9.6rem 0 6.4rem 0;
   text-align: center;
   background-color: #000;
   color: #fff;
+}
+
+.footer-heading {
+  font-size: 3.2rem;
+  line-height: 1.2;
+  margin-bottom: 1.2rem;
+  font-weight: 500;
 }
 
 .socials {
@@ -361,7 +368,7 @@
   gap: 0.8rem;
   justify-content: center;
 
-  margin-bottom: 4.8rem;
+  /* margin-bottom: 4.8rem; */
 }
 
 .footer-icon {
@@ -373,6 +380,11 @@
 
 .footer-description {
   font-size: 1.2rem;
+  background-color: #000;
+  color: #fff;
+
+  text-align: center;
+  padding: 1.2rem;
 }
 
 /* CHANGING STYLES */
@@ -384,7 +396,7 @@
   width: 35rem;
   text-align: center;
 
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   font-weight: 600;
   font-family: inherit;
 
