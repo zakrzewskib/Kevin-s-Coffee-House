@@ -13,10 +13,11 @@ design shown on his
 
 * I used photos from https://unsplash.com/, https://www.pexels.com/ and https://www.vecteezy.com/.
 
-### TO DO
-* Add media queries - make website responsive (proper for tablets and phones).
+### In progress
 * Add buttons to change color scheme.
 
+### To do
+* Add media queries - make website responsive (proper for tablets and phones).
 
 ### Preview (Work in progress)
 
