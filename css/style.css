@@ -374,3 +374,19 @@
 .footer-description {
   font-size: 1.2rem;
 }
+
+/* CHANGING STYLES */
+.change-style {
+  position: absolute;
+  top: 20rem;
+  right: 5rem;
+
+  font-size: 1.8rem;
+  font-weight: 600;
+  font-family: inherit;
+
+  cursor: pointer;
+
+  border: none;
+  padding: 1.2rem 2.4rem;
+}
