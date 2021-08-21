@@ -331,3 +331,32 @@
 .btn-submit:hover {
   cursor: pointer;
 }
+
+/* FOOTER */
+.footer {
+  display: grid;
+
+  padding: 4.8rem 0 1.2rem 0;
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+}
+
+.socials {
+  display: flex;
+  gap: 0.8rem;
+  justify-content: center;
+
+  margin-bottom: 4.8rem;
+}
+
+.footer-icon {
+  height: 3.2rem;
+  width: 3.2rem;
+
+  color: #fff;
+}
+
+.footer-description {
+  font-size: 1.2rem;
+}
