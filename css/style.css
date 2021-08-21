@@ -429,6 +429,17 @@
   color: #01627f;
 }
 
+.color-3 {
+  color: #003c57;
+}
+
+.color-4 {
+  color: #5ba1c1;
+}
+.color-5 {
+  color: #8fcbe6;
+}
+
 /* LINK TO GITHUB */
 .github-link {
   position: absolute;
