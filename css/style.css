@@ -197,7 +197,8 @@
 }
 
 .cta-btn {
-  width: 15%;
+  display: block;
+  /* width: 15%; */
 
   font-size: 1.6rem;
   font-family: inherit;
@@ -210,7 +211,7 @@
   background-color: #888;
   border: none;
 
-  padding: 1.2rem;
+  padding: 1.2rem 2.4rem;
 }
 
 .gallery {
@@ -221,4 +222,112 @@
 .gallery-img {
   width: 100%;
   display: block;
+}
+
+/* ABOUT SECTION */
+
+.section-get-in-touch {
+  padding: 4.8rem 0 9.6rem 0;
+}
+
+.get-in-touch {
+  display: grid;
+  grid-template-columns: 30fr 70fr;
+  gap: 6.4rem;
+
+  width: 120rem;
+  margin: 0 auto;
+
+  /* align-items: center; */
+  /* justify-content: center; */
+  /* justify-items: center; */
+
+  font-size: 1.8rem;
+}
+
+.opening-hours {
+  padding: 4.8rem;
+
+  background-color: #000;
+  color: #fff;
+}
+
+.address {
+  margin-bottom: 4.8rem;
+}
+
+.day-of-the-week {
+  margin-bottom: 3.2rem;
+}
+
+.day {
+  display: block;
+  margin-bottom: -1rem;
+}
+
+.contact {
+  padding: 4.8rem;
+}
+
+.contact-link:link,
+.contact-link:visited,
+.contact-link:hover,
+.contact-link:active {
+  display: block;
+
+  color: inherit;
+  text-decoration: none;
+
+  margin-bottom: 1.6rem;
+}
+
+.contact-link--email:link,
+.contact-link--email:visited,
+.contact-link--email:hover,
+.contact-link--email:active {
+  text-decoration: underline;
+}
+
+.contact-label {
+  display: block;
+  font-weight: 500;
+
+  margin-bottom: 0.8rem;
+}
+
+.contact-input {
+  display: block;
+  font-family: inherit;
+  font-size: inherit;
+
+  padding: 1.2rem;
+
+  width: 80%;
+
+  margin-bottom: 1.6rem;
+}
+
+.btn-container {
+  width: 80%;
+  display: grid;
+  justify-content: end;
+}
+
+.btn-submit {
+  display: inline-block;
+
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: 500;
+
+  background-color: #000;
+  color: #fff;
+
+  border: none;
+
+  padding: 1.6rem 4.8rem;
+}
+
+.btn-submit:hover {
+  cursor: pointer;
 }
