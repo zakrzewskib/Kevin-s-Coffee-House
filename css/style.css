@@ -391,12 +391,20 @@
 }
 
 /* CHANGING STYLES */
-.change-style {
-  position: absolute;
-  top: 20rem;
-  right: 5rem;
+
+.change-style-btns {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
 
   width: 35rem;
+
+  position: absolute;
+  top: 4.8rem;
+  right: 3.2rem;
+}
+
+.change-style {
   text-align: center;
 
   font-size: 1.6rem;
@@ -407,18 +415,6 @@
 
   border: none;
   padding: 1.2rem 2.4rem;
-}
-
-.change-style--0 {
-  top: 8rem;
-}
-
-.change-style--1 {
-  top: 14rem;
-}
-
-.change-style--3 {
-  top: 26rem;
 }
 
 .color-1 {
@@ -436,8 +432,13 @@
 .color-4 {
   color: #5ba1c1;
 }
+
 .color-5 {
   color: #8fcbe6;
+}
+
+.color-6 {
+  color: #df6e05;
 }
 
 /* LINK TO GITHUB */

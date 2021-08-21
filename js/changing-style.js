@@ -19,6 +19,12 @@ function addListeners() {
     changeTo(turquoise);
     addShades(blueShade1, blueShade2, blueShade3);
   });
+
+  buttonEls[4].addEventListener('click', () => {
+    changeTo(turquoise);
+    addShades(blueShade1, blueShade2, blueShade3);
+    addComplimentaryColor(orange);
+  });
 }
 
 const black = '#000';
@@ -28,6 +34,8 @@ const turquoise = '#01627f';
 const blueShade1 = '#003c57';
 const blueShade2 = '#5ba1c1';
 const blueShade3 = '#8fcbe6';
+
+const orange = '#df6e05';
 
 function changeTo(color) {
   headingEl.style.color = color;
@@ -39,6 +47,7 @@ function changeTo(color) {
   ctaEl.style.backgroundColor = color;
 
   openingHoursEl.style.backgroundColor = color;
+  getInTouchEl.style.color = color;
 
   submitBtnEl.style.backgroundColor = color;
 
@@ -79,6 +88,16 @@ function addShades(color, color2, color3) {
   });
 }
 
+function addComplimentaryColor(color) {
+  headersAboutEl.forEach((headerAbout) => {
+    headerAbout.style.color = color;
+  });
+
+  ctaButtonEl.style.backgroundColor = color;
+  getInTouchEl.style.color = color;
+  submitBtnEl.style.backgroundColor = color;
+}
+
 addListeners();
 
 const headingEl = document.querySelector('.heading-primary');
@@ -95,6 +114,8 @@ const contactEmailEl = document.querySelector('.contact-link--email');
 const ctaButtonEl = document.querySelector('.cta-btn');
 const headersAboutEl = document.querySelectorAll('.header-about');
 const comeForVisitHeadingEl = document.querySelector('.come-for-a-visit-heading');
+const getInTouchEl = document.querySelector('.get-in-touch-heading');
+
 const daysEl = document.querySelectorAll('.day');
 const headerCtaEl = document.querySelector('.header-cta');
 const footerIconsEl = document.querySelectorAll('.footer-icon');
