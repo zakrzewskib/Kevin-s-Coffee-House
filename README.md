@@ -17,7 +17,7 @@ design shown on his
 <a href="https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3/">Build Responsive Real-World Websites with HTML and CSS</a> by
 <a href="https://www.udemy.com/user/jonasschmedtmann/">Jonas Schmedtmann</a>.
 
-* I used photos from https://unsplash.com/, https://www.pexels.com/ and https://www.vecteezy.com/ (one photo (in about section) I had to google using Google Graphics, because I couldn't find it).
+* I used photos from https://unsplash.com/, https://www.pexels.com/ and https://www.vecteezy.com/ (one photo (in about section) I had to google using Google Graphics, because I couldn't find it, and first image I replaced with another).
 
 ### To do
 * Add media queries - make website responsive (proper for tablets and phones).
