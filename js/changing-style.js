@@ -114,6 +114,7 @@ function backToBlackAndWhite(black, white, grey) {
   submitBtnEl.style.backgroundColor = black;
   footerEl.style.backgroundColor = black;
   footerDescEl.style.backgroundColor = black;
+  footerDescEl.style.color = white;
 
   contactLabelsEl.forEach((contactLabel) => {
     contactLabel.style.color = black;
