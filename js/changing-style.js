@@ -1,5 +1,3 @@
-/* Bartosz Zakrzewski August 2021 */
-
 function addListeners() {
   const buttonEls = document.querySelectorAll('.change-style');
 
