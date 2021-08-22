@@ -13,9 +13,9 @@ design shown on his
 
 * I added buttons that allow you to change the colors (same colors as in the video).
 
-* A lot of code is based on Udemy course that I finished:
+<!-- * A lot of code is based on Udemy course that I finished:
 <a href="https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3/">Build Responsive Real-World Websites with HTML and CSS</a> by
-<a href="https://www.udemy.com/user/jonasschmedtmann/">Jonas Schmedtmann</a>.
+<a href="https://www.udemy.com/user/jonasschmedtmann/">Jonas Schmedtmann</a>. -->
 
 * I used photos from https://unsplash.com/, https://www.pexels.com/ and https://www.vecteezy.com/ (one photo (in about section) I had to google using Google Graphics, because I couldn't find it, and first image I replaced with another).
 
@@ -33,6 +33,7 @@ design shown on his
 <img src="https://github.com/zakrzewskib/Kevin-s-Coffee-House/blob/main/screenshots/preview-2021-08-21-colors.png" width="400px">
 </p>
  -->
+ (I don't know why, but I like the black and white version more)
  <img src="https://github.com/zakrzewskib/Kevin-s-Coffee-House/blob/main/screenshots/preview-2021-08-21-black.png">
  
  <br>
