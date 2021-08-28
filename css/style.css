@@ -452,3 +452,27 @@
 
   color: #000;
 }
+
+/* MOBILE */
+.change-style-btns-menu {
+  border: none;
+  background: none;
+  cursor: pointer;
+
+  display: none;
+
+  position: absolute;
+  top: 4.8rem;
+  right: 3.2rem;
+
+  z-index: 999;
+}
+
+.icon-menu-change-style {
+  height: 3.2rem;
+  width: 3.2rem;
+}
+
+.icon-menu-change-style[name='close-outline'] {
+  display: none;
+}

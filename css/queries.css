@@ -1,0 +1,21 @@
+/* Below 1904px = 119em image in intro section is too big */
+@media (max-width: 119em) {
+  .about-img {
+    width: 700px;
+  }
+}
+
+/* Below 1600px = 100rem = 100em - buttons overlap the text */
+@media (max-width: 100em) {
+  .change-style-btns-menu {
+    display: block;
+  }
+
+  .change-style-btns {
+    display: none;
+  }
+
+  .change-style-btns.open {
+    display: flex;
+  }
+}
