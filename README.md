@@ -33,7 +33,8 @@ design shown on his
 <img src="https://github.com/zakrzewskib/Kevin-s-Coffee-House/blob/main/screenshots/preview-2021-08-21-colors.png" width="400px">
 </p>
  -->
- (I don't know why, but I like the black and white version more)
+ (Idk, but I like the black and white version better🤔)
+ 
  <img src="https://github.com/zakrzewskib/Kevin-s-Coffee-House/blob/main/screenshots/preview-2021-08-21-black.png">
  
  <br>
