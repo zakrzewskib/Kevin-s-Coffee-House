@@ -1,7 +1,7 @@
 /* Below 1904px = 119em image in intro section is too big */
 @media (max-width: 119em) {
   .about-img {
-    width: 700px;
+    width: 100%;
   }
 }
 
@@ -19,3 +19,5 @@
     display: flex;
   }
 }
+
+/* Below 1250px =  - 'About us' item in navigation moves to two lines, come for a visit has no padding,  */
